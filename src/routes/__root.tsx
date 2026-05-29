@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Hector Aureliano" },
+      { name: "description", content: "Aurora Digital crafts high-converting landing pages for businesses, focusing on lead generation and sales." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Hector Aureliano" },
+      { property: "og:description", content: "Aurora Digital crafts high-converting landing pages for businesses, focusing on lead generation and sales." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Hector Aureliano" },
+      { name: "twitter:description", content: "Aurora Digital crafts high-converting landing pages for businesses, focusing on lead generation and sales." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1331615b-3233-4390-bdbb-2376d3e09535/id-preview-7ddfe281--e3ce6d0f-864e-4e2a-9b79-6d4415cb4e60.lovable.app-1780029971707.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1331615b-3233-4390-bdbb-2376d3e09535/id-preview-7ddfe281--e3ce6d0f-864e-4e2a-9b79-6d4415cb4e60.lovable.app-1780029971707.png" },
     ],
     links: [
       {
