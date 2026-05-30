@@ -521,8 +521,12 @@ function Index() {
         </div>
       </section>
 
+      {/* LATEST POSTS (WordPress via Overedge) */}
+      <LatestPostsSection />
+
       {/* FINAL CTA */}
       <section className="relative z-10 mx-auto max-w-[1400px] px-6 pb-32 md:px-12 md:pb-48">
+
         <div className="text-center">
           <div className="mx-auto inline-flex items-center gap-3 text-[10px] uppercase tracking-wider-3 text-muted-foreground">
             <span className="h-px w-10 bg-border" />
