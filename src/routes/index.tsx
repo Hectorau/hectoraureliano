@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import heroEntity from "@/assets/hero-entity.jpg";
 import visual1 from "@/assets/section-visual-1.jpg";
 import visual2 from "@/assets/section-visual-2.jpg";
+import { LatestPostsSection } from "@/components/LatestPostsSection";
 
 export const Route = createFileRoute("/")({
   head: () => ({
