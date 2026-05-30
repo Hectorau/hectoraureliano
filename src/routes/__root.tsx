@@ -91,6 +91,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: appCss,
       },
     ],
+    scripts: [
+      {
+        src: "https://cdn.overedge.dev/v1/connect.js",
+        "data-site-key": "ove_live_4c2b737eeacd450e87b05be0c3f95e11",
+      },
+    ],
   }),
   shellComponent: RootShell,
   component: RootComponent,
