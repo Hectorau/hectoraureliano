@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import heroEntity from "@/assets/hero-entity.jpg";
 import visual1 from "@/assets/section-visual-1.jpg";
 import visual2 from "@/assets/section-visual-2.jpg";
-import { LatestPostsSection } from "@/components/LatestPostsSection";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -521,12 +520,8 @@ function Index() {
         </div>
       </section>
 
-      {/* LATEST POSTS (WordPress via Overedge) */}
-      <LatestPostsSection />
-
       {/* FINAL CTA */}
       <section className="relative z-10 mx-auto max-w-[1400px] px-6 pb-32 md:px-12 md:pb-48">
-
         <div className="text-center">
           <div className="mx-auto inline-flex items-center gap-3 text-[10px] uppercase tracking-wider-3 text-muted-foreground">
             <span className="h-px w-10 bg-border" />
